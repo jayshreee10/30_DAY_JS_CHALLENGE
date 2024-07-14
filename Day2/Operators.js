@@ -52,6 +52,7 @@ else {console.log("ab=cd")}
 
 // • Task 9:
 // Write a program to compare two numbers using >= and and <= log the result to the console.
+// Activity 4: Logical Operators
 // • Task 11: Write a program that uses the && operator to combine two conditions and log the result to the console.
 // • Task 12: Write a program that uses the II operator to combine two conditions and log the result to the console.
 
@@ -87,9 +88,17 @@ else if(var3 == var2 || var4==var1){
     console.log("Different")
 }
 else { console.log("bye") }
-// Activity 4: Logical Operators
 
 // • Task 13: Write a program that uses the ! operator to negate a condition and log the result to the console.
+let isName = "Bhairabi"
+if (!isName) {
+    console.log ("You are not her")
+}
+else {
+    console.log ("OMG You are her")
 
+}
 // Activity 5: Ternary Operator
+let one = 5 
+one>2 ? console.log("good") : console.log("bad")
 // • Task 14: Write a program that uses the ternary operator to check if a number is positive or negative and log the result to the console.
