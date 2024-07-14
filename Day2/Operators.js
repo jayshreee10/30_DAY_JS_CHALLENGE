@@ -102,3 +102,6 @@ else {
 let one = 5 
 one>2 ? console.log("good") : console.log("bad")
 // • Task 14: Write a program that uses the ternary operator to check if a number is positive or negative and log the result to the console.
+let pnum = 30 , nnum= -30 
+pnum > 0 ? console.log("yes" ): console.log("no" )
+nnum > 0 ? console.log("yes" ): console.log("no" )
